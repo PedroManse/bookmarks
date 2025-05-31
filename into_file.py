@@ -52,7 +52,7 @@ def format_html(struct, ident=""):
     print(f"{ident}</DL>")
 
 def main():
-    profile = get(argv, 1, ".")
+    profile = get(argv, 1, "personal")
     out_type = get(argv, 2, "html")
     out = make_structure(profile)
 
